@@ -1,0 +1,46 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo da página */
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0; /* Remove o padding padrão do navegador */
+    background-color: #f0f0f0; /* Define a cor de fundo da página */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #007bff; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 20px; /* Adiciona espaço interno ao cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+/* Estiliza o container principal */
+.profile-container {
+    width: 80%; /* Define a largura do container */
+    max-width: 800px; /* Define uma largura máxima para o container */
+    margin: 20px auto; /* Centraliza o container horizontalmente e adiciona margem superior e inferior */
+    padding: 20px; /* Adiciona espaço interno ao container */
+    background-color: white; /* Define a cor de fundo do container */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao container */
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+/* Estiliza a imagem de perfil */
+.profile-picture {
+    width: 150px; /* Define a largura da imagem de perfil */
+    height: 150px; /* Define a altura da imagem de perfil */
+    border-radius: 50%; /* Torna a imagem circular */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #333; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px; /* Adiciona espaço interno ao rodapé */
+    position: fixed; /* Faz com que o rodapé fique fixo na parte inferior da página */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura da página */
+}
